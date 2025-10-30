@@ -16,6 +16,7 @@ body {
 }
 
 .display {
+    margin-top: 30px;
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -199,3 +200,4 @@ button.position{
     color: #e0e0e0
 
 }
+
