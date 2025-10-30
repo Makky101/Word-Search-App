@@ -98,6 +98,7 @@ button:hover {
 
 .user-interaction {
     display: flex;
+    justify-content: center;
     align-items:center;
     flex-direction: column;
     gap: 10px
@@ -158,6 +159,7 @@ button.position{
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    animation: fadeIn 2s ease forwards;
 }
 
 .Bigger {
@@ -200,4 +202,5 @@ button.position{
     color: #e0e0e0
 
 }
+
 
