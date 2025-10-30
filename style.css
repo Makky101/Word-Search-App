@@ -116,7 +116,7 @@ button:hover {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     display: flex;
     color: #1E293B;
-    width: 90%px;
+    width: 90%;
     max-width: 350px;
     height: auto;
     flex-direction: column;
@@ -202,5 +202,6 @@ button.position{
     color: #e0e0e0
 
 }
+
 
 
