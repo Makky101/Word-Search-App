@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,20 +10,22 @@
     <link rel="stylesheet" href="./responsive.css">
     <title>Word Search</title>
 </head>
+
 <body>
-    <button class="position screen-color"><i class="fa-solid fa-sun"></i></button>
-    <div class="display">
+    <button class="position screen-color" aria-label="Toggle dark mode"><i class="fa-solid fa-sun"></i></button>
+    <main class="display">
         <div>
             <h1>What Word Do You Want To Learn Today?</h1>
             <div class="action">
                 <div class="user-interaction">
-                    <input class="search-bar" placeholder="Enter a word..." />
-                    <button class="submit">Search</button>
+                    <input type="text" class="search-bar" placeholder="Enter a word..." />
+                    <button type="submit" class="submit">Search</button>
                 </div>
-                <div class="result"></div>
+                <div class="result" aria-live="polite"></div>
             </div>
-        </div>
+    </main>
     </div>
     <script src="./script.js"></script>
 </body>
+
 </html>
